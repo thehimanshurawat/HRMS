@@ -3,7 +3,7 @@
 To clone this repository to your local environment, run the following command in your terminal:
 
 ```bash
-git clone https://github.com/Himanshu0721/HRMS.git
+git clone https://github.com/thehimanshurawat/HRMS.git
 ```
 
 ## Commands to run codes on localhost
