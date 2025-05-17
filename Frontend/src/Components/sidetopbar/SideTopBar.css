@@ -1,0 +1,21 @@
+@media(max-width: 768px){
+    .topbar-content{
+        height: 10px;
+    }
+}
+@media(max-width: 480px){
+    .topbar-content{
+        height: 10px;
+    }
+}
+@media(max-width:380px){
+    .topbar-content{
+        height: 10px;
+
+    }
+}
+@media(max-width: 320px){
+    .topbar-content{
+        height: 10px;
+    }
+}

@@ -1,0 +1,100 @@
+.JobCard {
+  padding: 20px;
+  background-color: var(--bg-color);
+}
+.jobContainer {
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: var(--bg-color);
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #e5e7eb;
+}
+.jobInput, .jobInput::placeholder{
+  color: #000;
+}
+@media (max-width: 768px) {
+  .BtnAddJob {
+    font-size: 12px;
+  }
+  .JobSearch {
+    width: 120px;
+  }
+  .jobContainer {
+    margin: 10px; /* Smaller margin for mobile screens */
+  }
+  .JobCard {
+    padding: 9px;
+  }
+  .ExportButton{
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
+@media(max-width: 640px) {
+  .ExportButton{
+    width: 35%;
+  }
+}
+@media(max-width: 480px){
+  .ExportButton{
+    font-size: 14px;
+    width: 50%;
+    margin-top: 20px;
+  }
+  .jobTitle{
+    font-size: 18px;
+  }
+  .jobType{
+    font-size: 15px;
+  }
+  .jobSkills{
+    font-size: 14px;
+  }
+  .jobApplyButton{
+    font-size: 11px;
+  }
+}
+@media(max-width: 380px){
+  .ExportButton{
+    font-size: 12px;
+    width: 50%;
+    margin-top: 20px;
+  }
+  .jobTitle{
+    font-size: 18px;
+  }
+  .jobType,.jobInput{
+    font-size: 15px;
+  }
+  .jobSkills{
+    font-size: 13px;
+  }
+  .jobApplyButton{
+    font-size: 10px;
+  }
+}
+@media(max-width:320px){
+  .ExportButton{
+    font-size: 10px;
+    width: 45%;
+    height: 40px;
+    margin-top: 20px;
+  }
+  .jobTitle{
+    font-size: 18px;
+  }
+  .jobType{
+    font-size: 14px;
+  }
+  .jobSkills{
+    font-size: 12px;
+  }
+  .jobApplyButton{
+    font-size: 9px;
+  }
+  .jobInput{
+    font-size: 14px;
+  }
+}

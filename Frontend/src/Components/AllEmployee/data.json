@@ -1,0 +1,162 @@
+[
+  {
+    "employeeName": "John Doe",
+    "employeeId": "987654321",
+    "designation": "Software Engineer",
+    "department": "Sales",
+    "type": "Office",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "Jane Smith",
+    "employeeId": "123456789",
+    "designation": "Project Manager",
+    "department": "Operations",
+    "type": "Remote",
+    "status": "Temporary"
+  },
+  {
+    "employeeName": "Michael Brown",
+    "employeeId": "456789123",
+    "designation": "Data Analyst",
+    "department": "Finance",
+    "type": "Office",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "Emily Davis",
+    "employeeId": "321987654",
+    "designation": "HR",
+    "department": "HR",
+    "type": "Remote",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "Daniel Wilson",
+    "employeeId": "654123987",
+    "designation": "Project Manager",
+    "department": "IT",
+    "type": "Office",
+    "status": "Temporary"
+  },
+  {
+    "employeeName": "Olivia Taylor",
+    "employeeId": "987321654",
+    "designation": "Python Developer",
+    "department": "Python",
+    "type": "Remote",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "William Johnson",
+    "employeeId": "159753486",
+    "designation": "Marketing Specialist",
+    "department": "Marketing",
+    "type": "Office",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "Sophia Martinez",
+    "employeeId": "753159864",
+    "designation": "Content Writer",
+    "department": "Content",
+    "type": "Remote",
+    "status": "Temporary"
+  },
+  {
+    "employeeName": "Isabella Moore",
+    "employeeId": "951753486",
+    "designation": "QA Engineer",
+    "department": "IT",
+    "type": "Remote",
+    "status": "Temporary"
+  },
+  {
+    "employeeName": "Ethan Harris",
+    "employeeId": "852741963",
+    "designation": "Business Analyst",
+    "department": "Business Analyst",
+    "type": "Office",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "Mia Lopez",
+    "employeeId": "369258147",
+    "designation": "UI/UX Designer",
+    "department": "Design",
+    "type": "Remote",
+    "status": "Temporary"
+  },
+  {
+    "employeeName": "Noah Clark",
+    "employeeId": "741852963",
+    "designation": "Java Developer",
+    "department": "Java",
+    "type": "Office",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "Ava Lewis",
+    "employeeId": "258369147",
+    "designation": "React Developer",
+    "department": "React JS",
+    "type": "Remote",
+    "status": "Temporary"
+  },
+  {
+    "employeeName": "Liam Walker",
+    "employeeId": "159487263",
+    "designation": "Node.js Developer",
+    "department": "Node JS",
+    "type": "Office",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "Charlotte King",
+    "employeeId": "753486159",
+    "designation": "Account Manager",
+    "department": "Account",
+    "type": "Remote",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "Benjamin Hall",
+    "employeeId": "365214879",
+    "designation": "HR Coordinator",
+    "department": "HR",
+    "type": "Office",
+    "status": "Temporary"
+  },
+  {
+    "employeeName": "Amelia Scott",
+    "employeeId": "698547123",
+    "designation": "Sales Executive",
+    "department": "Sales",
+    "type": "Remote",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "Henry Adams",
+    "employeeId": "214365879",
+    "designation": "Senior Business Analyst",
+    "department": "Business Analyst",
+    "type": "Office",
+    "status": "Permanent"
+  },
+  {
+    "employeeName": "Evelyn Carter",
+    "employeeId": "875412369",
+    "designation": "Lead Designer",
+    "department": "Design",
+    "type": "Remote",
+    "status": "Temporary"
+  },
+  {
+    "employeeName": "Lucas Ramirez",
+    "employeeId": "963741852",
+    "designation": "Java Backend Developer",
+    "department": "Java",
+    "type": "Office",
+    "status": "Permanent"
+  }
+]

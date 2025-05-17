@@ -1,0 +1,215 @@
+.dropli:hover{
+  color: #000;
+}
+.topBar{
+  margin-left: 20px;
+}
+/* .profileContainer{
+  margin-right: 20px;
+} */
+.Robert{
+  color: #000;
+}
+
+.notifications{
+  position: relative;
+}
+
+.notification-tag {
+  position: absolute;
+  top: 6px;
+  right: 11px;
+  height: 14px;
+  width: 14px;
+  background: rgb(218, 27, 27);
+  color: white;
+  font-size: x-small;
+  font-weight: bold;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  /* Hide designation on tablet screens */
+  .designation-text {
+    display: none;
+  }
+  .Robert span{
+    font-size: 10px;
+  }
+  .avataruse {
+    padding: 10px;
+    height: 35px;
+  }
+  .HeadingText {
+    font-size: 15px;
+  }
+  .HeadingGreeting {
+    font-size: 9px;
+    line-height: 0.1;
+  }
+  .topBar{
+    top: -44px;
+    margin-left: 20px;
+  }
+  .notifications{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 7px;
+  }
+  .notification{
+    position: relative;
+    right: 10px;
+    bottom: 9px;
+    padding: 2px;
+  }
+  .profileContainer{
+    top: 8px;
+  }
+  .profileContainer img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -0px;
+  }
+}
+@media(max-width: 480px){
+  .avataruse {
+    padding: 10px;
+    height: 35px;
+  }
+  .HeadingText {
+    font-size: 15px;
+  }
+  .HeadingGreeting {
+    font-size: 9px;
+    line-height: 0.1;
+  }
+  .topBar{
+    top: -49px;
+    margin-left: 20px;
+  }
+  .notifications{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 7px;
+  }
+  .notification{
+    position: relative;
+    right: 10px;
+    bottom: 9px;
+    padding: 2px;
+  }
+  .profileContainer{
+    top: 8px;
+  }
+  .profileContainer img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -0px;
+  }
+}
+@media(max-width: 380px){
+  .avataruse {
+    padding: 10px;
+    height: 35px;
+  }
+  .HeadingText {
+    font-size: 15px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .HeadingGreeting {
+    font-size: 9px;
+    line-height: 0.1;
+  }
+  .topBar{
+    top: -46px;
+    margin-left: 20px;
+  }
+  .notifications{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+  }
+  .notification{
+    position: relative;
+    right: 10px;
+    bottom: 9px;
+    padding: 2px;
+  }
+  .profileContainer{
+    top: 6px;
+  }
+  .profileContainer img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -0px;
+  }
+}
+@media (max-width: 320px) {
+  .avataruse {
+    padding: 10px;
+    height: 35px;
+  }
+  .HeadingText {
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .HeadingGreeting {
+    font-size: 8px;
+    line-height: 0.1;
+  }
+  .topBar{
+    top: -45px;
+    margin-left: 25px;
+  }
+  .notifications{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+  }
+  .notification{
+    position: relative;
+    right: 7px;
+    bottom: 7px;
+    text-align: center;
+  }
+  .profileContainer img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -0px;
+  }
+}
+@media (max-width: 640px) {
+  /* Hide name and designation, show only image */
+  .dropdown-button {
+    gap: 0;
+    padding: 5px;
+    border: none;
+  }
+
+  .dropdown-button img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+/* Remove unwanted left padding from dropdown items */
+.dropdown-menu li {
+  padding-left: 8px !important;
+}
+
+.dropul {
+  padding-left: 0px !important;
+}

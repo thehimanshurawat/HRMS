@@ -1,0 +1,63 @@
+.attendance {
+  background-color: var(--bg-color);
+}
+.attendanceHover:hover {
+  cursor: pointer;
+  background-color: var(--hover-color);
+}
+.attendanceDetails {
+  color: var(--text-color);
+}
+.attendanceInput,
+.attendanceInput::placeholder {
+  color: #000;
+}
+.numberButton {
+  color: var(--text-color);
+}
+.numberButton {
+  color: var(--text-color);
+}
+.all-attendance-profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 8px;
+  object-fit: cover;
+}
+@media(max-width:768px){
+  .attendance{
+    margin-top: 20px;
+  }
+  .attendanceText{
+    margin-right: 30px;
+  }
+  .attendanceExportButton{
+    margin-top: 20px;
+  }
+}
+@media(max-width: 640px){
+  .attendanceExportButton{
+    width: 18%;
+  }
+}
+@media(max-width: 540px){
+  .attendanceExportButton{
+    width: 20%;
+  }
+}
+@media(max-width: 480px){
+  .attendanceExportButton{
+    width: 25%;
+  }
+}
+@media(max-width: 380px){
+  .attendanceExportButton{
+    width: 35%;
+  }
+}
+@media(max-width: 320px){
+  .attendanceExportButton{
+    width: 40%;
+  }
+}

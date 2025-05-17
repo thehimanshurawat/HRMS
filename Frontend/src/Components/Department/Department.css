@@ -1,0 +1,43 @@
+.tableul{
+    padding-left:0px !important;
+}
+
+.all-employee-action-icons {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  } 
+  .departmentSection, .department2{
+    background-color: var(--bg-color);
+  }
+  .shadow-xl {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    background-color: #fff;
+    /* padding: 24px; */
+    /* margin: 16px; */
+  }
+  .department input{
+    color: #000;
+  }
+  .department input::placeholder{
+    color: #000;
+  }
+  .departmentSection {
+    padding: 24px;
+  }
+  
+  .department2 {
+    padding: 16px;
+    margin-left: 10px; /* Gap between HR Manager and border */
+    margin-right: 10px; /* Gap between Marketing and border */
+  }
+  
+  .profile-box {
+    margin-left: 10px; /* Left gap between HR Manager box and border */
+  }
+ @media(max-width:768px){
+  .depart{
+    margin-top: 20px;
+  }
+ }

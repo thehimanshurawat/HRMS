@@ -1,0 +1,6 @@
+.notificationContainer{
+    background-color: var(--bg-color);
+}
+.notificationTitle{
+    color: var(--text-color);
+}

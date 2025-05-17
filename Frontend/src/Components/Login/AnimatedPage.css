@@ -1,0 +1,22 @@
+.animated-box {
+    transition: all 0.5s ease-in-out;
+    will-change: transform, opacity;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.animated-box {
+    animation: fadeIn 1s ease-in-out;
+}
+.animated-box:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.animated-box {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.animated-box.show {
+    opacity: 1;
+}

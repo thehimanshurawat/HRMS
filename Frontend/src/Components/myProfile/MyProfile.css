@@ -1,0 +1,21 @@
+.myProfileSection{
+    background: var(--bg-color);
+}
+.sideNavbarOption{
+    background-color: var(--sideNavbar-color);
+}
+.professionalContainer, .projectDetails, .leaveContainer{
+    color: var(--text-color);
+}
+.popup-container {
+    padding: 25px; /* Yeh padding ensure karega */
+  }
+  .leaveButton{
+    justify-content: end;
+  }
+  @media(max-width:768px){
+    .leaveButton{
+        justify-content: center;
+  
+    }
+  }

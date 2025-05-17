@@ -1,0 +1,29 @@
+.addPayrollContainer {
+  display: flex;
+  gap: 20px;
+}
+.addPayrollContainer button:hover {
+  background-color: var(--toggle-active);
+}
+@media (max-width: 768px) {
+  .addPayrollContainer button {
+    margin-top: 16px; /* Adds gap */
+    border-radius: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .addPayrollContainer button {
+    font-size: 14px;
+  }
+}
+@media (max-width: 380px) {
+  .addPayrollContainer button {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .addPayrollContainer button {
+    font-size: 12px;
+  }
+}

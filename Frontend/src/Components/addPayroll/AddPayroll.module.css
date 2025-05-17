@@ -1,0 +1,256 @@
+.payrollLabel{
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* This ensures both labels take equal width */
+  }
+  .payrollLabel label{
+    color: rgb(127, 124, 124);
+  }
+  .payrollLabel input{
+    border-radius: 10px;
+    border: 1px solid rgba(162, 161, 168, 0.2);
+    margin-top: 10px;
+    width: 100%; /* Make input take full width */
+    padding: 10px;
+  }
+  .add_new_form{
+    border-radius: 10px;
+    border: 1px solid rgba(162, 161, 168, 0.20);
+    height: auto;
+    width: 100%;
+    position: relative;
+  }
+  .form {
+    width: 100%;
+    color: #010101;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+  }
+  
+  .form .form_row {
+    display: flex;
+    gap: 0.75rem;
+  }
+  
+  .form .form_row.md {
+    flex-direction: row;
+  }
+  
+  .form .form_row input {
+    flex: 1;
+    min-width: 0;
+    padding: 0.75rem;
+    border-radius: 10px;
+    border: 1px solid rgba(162, 161, 168, 0.20);
+   
+  }
+  
+  .form .form_row input::placeholder {
+    color: #cecbcc;
+  }
+  
+  
+  .form_content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+  }
+  .payrollForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .payrollHeading {
+    color: var(--grey-color);
+    font-size: 25px;
+  }
+  .payrollButtonContainer{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+  }
+  .payrollSubmitButton {
+    background-color: var(--toggle-active);
+    color: var(--sideNavbar-color);
+    padding: 5px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+  }
+  .payrollSubmitButton:hover {
+    background-color: rgb(135, 22, 240);
+  }
+  .payrollCancelButton {
+    border: 1px solid var(--grey-color);
+    color: var(--text-color);
+    padding: 15px 25px;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  /* Modal Content */
+  .modal_overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--toggle-bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+  }
+  .modal_content{
+    background: var(--bg-color);
+    padding: 20px;
+    border-radius: 12px important;
+    text-align: center;
+    width: 90%;
+    max-width: 350px;
+    box-shadow: 0 4px 10px var(--text-color);
+  }
+  
+  .modal_content h3 {
+    font-size: 24px;
+    color: var(--text-color);
+    margin-top: 20px;
+    padding: 10px 30px;
+  }
+  
+  .modal_content p {
+    font-size: 14px;
+    color: var(--toggle-bg);
+    margin-bottom: 20px;
+  }
+  
+  /* Success Icon */
+  .success_icon {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .select-wrapper select {
+    border: 2px solid var(--border-color);
+    background-color: var(--back-color);
+  }
+  .dashboard_button:hover {
+    background: var(--toggle-active);
+  }
+  
+  @media (max-width: 768px) {
+    .payrollSection {
+      margin-top: 20px;
+    }
+    .payrollForm {
+      height: auto;
+    }
+    .payrollHeading {
+      font-size: 25px;
+      text-align: center;
+    }
+    .payrollHeading {
+      font-size: 20px;
+      text-align: center;
+    }
+    .payrollButtonContainer {
+      justify-content: center;
+    }
+    .payrollSubmitButton {
+      padding: 15px;
+      font-size: 12px;
+      height: 45px;
+    }
+    .payrollCancelButton {
+      padding: 15px;
+      font-size: 12px;
+      height: 45px;
+    }
+    .form .form_row{
+        flex-direction: column;
+    }
+    .payrollLabel label{
+        font-size: 12px;
+    }
+    .payrollLabel input{
+        height: 90px;
+      }
+  }
+  @media (max-width: 480px) {
+    .payrollForm{
+        height: auto;
+    }
+    .payrollLabel label{
+        font-size: 12px;
+    }
+    .payrollLabel input{
+        height: 90px;
+      }
+  }
+  @media (max-width: 380px) {
+    .payrollForm {
+      height: auto;
+    }
+    .payrollHeading {
+      font-size: 20px;
+      text-align: center;
+    }
+    .payrollSubmitButton {
+      padding: 15px;
+      font-size: 12px;
+      height: 45px;
+    }
+    .payrollButtonContainer {
+      justify-content: center;
+    }
+    .payrollCancelButton {
+      padding: 15px;
+      font-size: 12px;
+      height: 45px;
+    }
+    .payrollLabel label{
+        font-size: 12px;
+    }
+    .payrollLabel input{
+        height: 90px;
+      }
+  }
+  @media (max-width: 320px) {
+    .payrollForm {
+      height: auto;
+    }
+    .payrollHeading {
+      font-size: 20px;
+      text-align: center;
+    }
+    .payrollButtonContainer {
+      justify-content: center;
+    }
+    .payrollSubmitButton {
+      padding: 10px;
+      font-size: 11px;
+      height: 40px;
+    }
+    .payrollCancelButton {
+      padding: 10px;
+      font-size: 11px;
+      height: 40px;
+    }
+    .payrollLabel label{
+        font-size: 12px;
+    }
+    .payrollLabel input{
+        height: 90px;
+      }
+  }
+    
